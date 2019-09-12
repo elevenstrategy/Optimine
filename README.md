@@ -7,6 +7,7 @@ Dans le cadre de cette solution, une solution de géolocalisation des véhicules
 
 ## Key takeawys :
 - Il s'agit d'avantage d'un projet de Data Science avec la mise en place d'un pipeline de code que d'un projet de Machine Learning
+
 - Structure du code dans une forme industrialisable avec notamment :
   - La présence de params en début de chaque script permettant de ne pas écrire en dur dans le code les paramètres
   - La structure du script autour de 3 grandes fonctions: 
@@ -15,9 +16,10 @@ Dans le cadre de cette solution, une solution de géolocalisation des véhicules
     - Load: structuration des résulats pour pouvoir les charger dans une table ou les exposer sur une API 
     NB: Cette structure est très optimale notamment lorsque votre script doit être industrialisé par un prestataire technique (comme ForePaas dans mon cas) puisqu'il n'aura qu'à adapter une partie des fonctions extract et load mais ne touchera pas à la partie transform
     - Interactions avec des bases de données SQL disponibles sur un VPS OVH (extract, insert, etc.)
-    - Mes apprentissages Data lors de cette mission sont disponibles dans le word "Key Takeaways Data Manager Optimizer"
-  - La mise en place de table de logs 
+    - La mise en place de table de logs 
 
+- Mes apprentissages Data lors de cette mission sont disponibles dans le word "Key Takeaways Data Manager Optimizer"
+  
 ## Objectives & Method :
 - Analyser les comportements de conduite des chauffeurs en mettant en place un concours d'écoconduite (note sur l'accélaration, la déccélération et le maintien de la vitesse) dans un premier temps avec un pipeline Python "elevenmade" basé sur de la donnée collectée sur des téléphones Samsung équippés de l'application mycartracks (https://www.mycartracks.com/) et d'une application d'identification développé par notre partenaire technique APP4MOB, et dans un deuxième temps avec des balises GPS plus robustes de la société Globo (http://www.globoconnect-europe.com/) nous transmettant directement des notes d'écoconduite
 
