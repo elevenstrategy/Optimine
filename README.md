@@ -38,4 +38,4 @@ Dans le cadre de cette solution, une solution de géolocalisation des véhicules
 - Bash for Windows (https://www.windows8facile.fr/w10-activer-bash-linux/): écriture de commande linuxe pour se connecter au serveur à distance en SSH et pour paraméter des tâches planifiés (CRON)
 - API de l'application mycartracks (https://www.mycartracks.com)
 - API de l'application GLOBO Connect (API définie sur mesure avec le partenaire)
-
+- API Nexmo (https://www.nexmo.com/) permettant d'envoyer des SMS
